@@ -1,0 +1,12 @@
+
+server:
+  port: 9080
+
+spring:
+  application:
+    name: oauth2-server
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/oauth2?allowPublicKeyRetrieval=true&useSSL=false&useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=Asia/Shanghai
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
