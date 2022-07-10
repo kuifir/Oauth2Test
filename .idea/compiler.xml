@@ -2,13 +2,14 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="springsecurity101-cloud-oauth2-userservice" />
         <module name="springsecurity101-cloud-oauth2-client" />
         <module name="springsecurity101-cloud-oauth2-server" />
-        <module name="springsecurity101-cloud-oauth2-userservice" />
       </profile>
     </annotationProcessing>
   </component>
